@@ -4,7 +4,7 @@ SoftAlign is an advanced alignment method designed to efficiently compare 3D pro
 
 Our results demonstrate that SoftAlign is able to recapitulate TM-align results while being faster and more accurate than alternative tools like Foldseek. While not the fastest alignment method available, SoftAlign excels in precision and is well-suited for integration with other pre-filtering methods. Notably, the softmax-based alignment shows superior sensitivity for structure similarity detection compared to traditional methods.
 
-SoftAlign also introduces a novel pseudo-alignment method based on softmax. This approach can be integrated into other models and architectures, even those not inherently focused on structural information. For a more detailed description of the method, please refer to the full paper [here](https://github.com/jtrinquier/SoftAlign).
+SoftAlign also introduces a novel pseudo-alignment method based on softmax. This approach can be integrated into other models and architectures, even those not inherently focused on structural information. For a more detailed description of the method, please refer to the full paper [here](https://www.biorxiv.org/content/10.1101/2025.05.09.653096v1).
 
 ---
 
@@ -18,8 +18,7 @@ SoftAlign also introduces a novel pseudo-alignment method based on softmax. This
         * [`align.py`](#a-alignpy-pairwise-protein-alignment)
         * [`structure_search.py`](#b-structure_searchpy-protein-structure-search)
     * [Troubleshooting and Notes](#3-troubleshooting-and-notes)
-4.  [License](#license)
-5.  [Citation](#citation)
+
 
 ---
 
