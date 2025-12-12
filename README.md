@@ -159,6 +159,17 @@ This script allows for structural searches (one-vs-all or all-vs-all) against a 
         --run_all_vs_all \
         --output_dir ./my_custom_search_results
     ```
+## 3. Troubleshooting and Notes
 
+###  JAX Version Compatibility
+
+The latest releases of **JAX** and **jaxlib** introduce changes that may cause errors when running SoftAlign with the default installation commands. If you encounter issues related to JAX, Haiku, it is likely due to using a JAX version that is too new. We will solve this compatibility issue in a future update.
+
+SoftAlign has been tested and confirmed to work with the following versions:
+
+```bash
+jax==0.4.28
+jaxlib==0.4.28+cuda12.cudnn89
+dm-haiku==0.0.15.dev0
 
 
