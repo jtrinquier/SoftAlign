@@ -154,7 +154,7 @@ This script allows for structural searches (one-vs-all or all-vs-all) against a 
 * **Example 2: All-vs-all search using a custom PDB folder:**
     ```bash
     # Assuming 'my_pdbs' folder exists with .pdb files
-    python local_structure_search.py \
+    python structure_search.py \
         --pdb_folder_path ./my_pdbs \
         --model_type Smith-Waterman \
         --run_all_vs_all \
