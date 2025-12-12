@@ -48,8 +48,8 @@ def main():
     # --- 1. Define Protein Structures ---
     if args.pdb_source == "af":
         print(f"Downloading {args.pdb1_id} and {args.pdb2_id} from AlphaFold...")
-        os.system(f"wget -qO {pdb1_file} https://alphafold.ebi.ac.uk/files/AF-{args.pdb1_id}-F1-model_v4.pdb")
-        os.system(f"wget -qO {pdb2_file} https://alphafold.ebi.ac.uk/files/AF-{args.pdb2_id}-F1-model_v4.pdb")
+        os.system(f"wget -qO {pdb1_file} https://alphafold.ebi.ac.uk/files/AF-{args.pdb1_id}-F1-model_v6.pdb")
+        os.system(f"wget -qO {pdb2_file} https://alphafold.ebi.ac.uk/files/AF-{args.pdb2_id}-F1-model_v6.pdb")
     elif args.pdb_source == "pdb":
         print(f"Downloading {args.pdb1_id} and {args.pdb2_id} from RCSB PDB...")
         os.system(f"wget -qO {pdb1_file} https://files.rcsb.org/view/{args.pdb1_id}.pdb")
