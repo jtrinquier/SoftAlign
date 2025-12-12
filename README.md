@@ -145,7 +145,7 @@ This script allows for structural searches (one-vs-all or all-vs-all) against a 
         --use_scope_database \
         --model_type Softmax \
         --query_id d2dixa1 \
-        --pdb1_to_plot_id d1a8oa \
+        --pdb1_to_plot_id d2dixa1 \
         --pdb2_to_plot_id d1qrjb1 \
         --output_dir ./search_and_plot_results
     ```
