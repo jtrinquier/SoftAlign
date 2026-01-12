@@ -1,5 +1,7 @@
 # SoftAlign: End-to-End Structural Alignment for Protein Data
 
+UPDATE 12/01/2026: The colab notebooks have been updated to work with the new jax version.
+
 SoftAlign is an advanced alignment method designed to efficiently compare 3D protein structures. By leveraging structural information directly, SoftAlign provides an end-to-end alignment process, allowing for both highly accurate alignments and efficient computations. The method uses the 3D coordinates of protein pairs, transforming them into feature vectors through a retrained encoder of ProteinMPNN. This similarity matrix is then aligned using two strategies: a differentiable Smith-Waterman method and a novel softmax-based pseudo-alignment approach.
 
 Our results demonstrate that SoftAlign is able to recapitulate TM-align results while being faster and more accurate than alternative tools like Foldseek. While not the fastest alignment method available, SoftAlign excels in precision and is well-suited for integration with other pre-filtering methods. Notably, the softmax-based alignment shows superior sensitivity for structure similarity detection compared to traditional methods.
