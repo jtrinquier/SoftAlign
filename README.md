@@ -1,4 +1,9 @@
 # SoftAlign: End-to-End Structural Alignment for Protein Data
+**UPDATE 11/02/2026: Added Foldseek API pre-filtering to enable rapid searching of the AlphaFold Database.**
+Foldseek_API_SoftAlign.ipynb
+ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jtrinquier/SoftAlign/blob/main/Foldseek_API.ipynb)
+    [Foldseek_API.ipynb](https://colab.research.google.com/github/jtrinquier/SoftAlign/blob/main/Foldseek_API.ipynb)
+
 
 **UPDATE 12/01/2026: The colab notebooks have been updated to work with the new jax version.**
 
@@ -45,6 +50,10 @@ To facilitate ease of use and reproducibility, we provide three Google Colab not
 3.  **All-vs-All Search Notebook**: Performs an all-vs-all search within the SCOPE 40 dataset. You can also input your own PDB folder and perform an all-vs-all search.
     [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jtrinquier/SoftAlign/blob/main/Colab/Structure_Search_SoftAlign.ipynb)
     [Structure_Search_SoftAlign.ipynb](https://colab.research.google.com/github/jtrinquier/SoftAlign/blob/main/Colab/Structure_Search_SoftAlign.ipynb)
+
+4.  **Foldseek API**: Calls Foldseek on Alphafold DB50 to prefilter, then rerank with SoftAlign
+ [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jtrinquier/SoftAlign/blob/main/Foldseek_API.ipynb)
+    [Foldseek_API.ipynb](https://colab.research.google.com/github/jtrinquier/SoftAlign/blob/main/Foldseek_API.ipynb)
 
 ### Local Command-Line Scripts
 
